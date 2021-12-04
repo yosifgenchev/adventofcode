@@ -9,11 +9,11 @@ public class Submarine {
     }
 
     public void goDown(int units) {
-        submarinePosition.increaseDepthBy(units);
+        submarinePosition.increaseAimBy(units);
     }
 
     public void goUp(int units) {
-        submarinePosition.decreaseDepthBy(units);
+        submarinePosition.decreaseAimBy(units);
     }
 
     public void perform(String command) {
